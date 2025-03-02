@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+
+@theme {
+    --color-mainElems: #ff6a00;
+    --color-mainElemsHover: #f15600;
+    --color-mainElemsDisabled: #949494;
+    --color-mainBg1: #fdf7f3;
+    --color-mainBg2: #fff7f3;
+    --color-mainText: #505050;
+    --color-mainBlack: #232323
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
